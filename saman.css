@@ -8,7 +8,7 @@ body{
     background-image: url(saman\ back.png);
     background-repeat: no-repeat;
     background-size: cover;
-    height: 874px;
+    height: 100vh;
     overflow: hidden;
 }
 
