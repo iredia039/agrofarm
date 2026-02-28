@@ -1,0 +1,324 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(background.png);
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    background-size: cover;
+    color: white;
+}
+
+
+
+@media screen and (max-width: 430px) {
+    .smarter{
+    margin-top: 150px;
+    text-align: center;
+    /* display: flex;
+    align-items: center; */
+}
+
+h1 span{
+    color: yellow;
+}
+
+.smarter img{
+    width: 30%;
+    position: relative;
+    left: 15%;
+}
+
+.agrofarm{
+    text-align: center;
+    margin-top: 40px;
+}
+
+
+.agrofarm img{
+    width: 50%;
+}
+
+.last-farm{
+    /* border: 1px solid blue; */
+    text-align: center;
+    margin-top: 300px;
+    /* display: flex;
+    align-items: end; */
+}
+
+.secondback{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.secondback img{
+    width: 50%;
+}
+
+.about-text{
+    margin-top: 70px;
+    text-align: center;
+  font-size: 25px;
+}
+
+.about-text p{
+      
+}
+
+.about-btn{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 140px;
+}
+
+.about-btn button:nth-of-type(1){
+    color: white;
+    background-color: #4baf47;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+    /* border: none; */
+}
+
+.about-btn button:nth-of-type(2){
+     color: rgb(13, 11, 11);
+    background-color: #faff00;
+    border-radius: 40px;
+    font-size: 20px;
+    padding: 10px;
+    width: 40%;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.fourthback{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.fourthback img{
+    width: 30%;
+}
+
+.wlc{
+    margin-top: 20px;
+    text-align: center;
+    font-size: 30px;
+    color: #faff00;
+    font-style: italic;
+}
+
+.choose{
+    text-align: center;
+    margin-top: 30px;
+    font-size: 18px;
+}
+
+.Sinhala{
+    text-decoration: underline;
+}
+
+.icons{
+    margin-top: 10vh;
+    display: flex;
+    justify-content: space-between;
+    /* border: 1px solid blue; */
+}
+
+.icon{
+    /* width: 40%; */
+    text-align: center;
+    /* border: 1px solid blue; */
+}
+
+.icon img{
+    width: 60%;
+}
+
+.icon button:nth-of-type(1){
+    margin-top: 5%;
+    font-size: 20px;
+    background-color: #FFD29A;
+    border-radius: 30px;
+    width: 80%;
+    height: 30%;
+}
+
+.page4-last-p{
+    text-align: center;
+    font-size: 15px;
+    margin-top: 30%;
+}
+
+.page4-last-btn{
+    text-align: center;
+    margin-top: 6%;
+}
+.page4-last-btn button{
+    text-align: center;
+    /* width: 80%; */
+    font-size: 20px;
+    padding: 10px;
+    background: #EEC044;
+    border-radius: 20px;
+}
+
+.fifthback{
+     text-align: center;
+    margin-top: 40px;
+}
+
+.fifthback img{
+     width: 40%;
+}
+
+.sign-up{
+    text-align: center;
+    margin-top: 70px;
+    font-size: 18px;
+}
+
+.sign-up a{
+    text-decoration: none;
+    color: #faff00;
+}
+
+.form{
+    text-align: center;
+    margin-top: 40px;
+}
+
+.form input{
+    height: 60px;
+    width: 350px;
+    border-radius: 30px;
+    font-size: 20px;
+    padding-left: 30px;
+}
+
+.form img{
+    position: relative;
+    right: 60px;
+    top: 5px;
+    height: 20px;
+}
+
+.fifth-btn{
+    text-align: center;
+    margin-top: 40%;
+
+}
+
+.fifth-btn button{
+    width: 150px;
+    height: 50px;
+    font-size: 20px;
+    background-color: #faff00;
+    border-radius: 30px;
+}
+
+/* welcome farmer */
+.farmer-page-wlc{
+    /* text-align: center; */
+    display: flex;
+    margin-left: 40px;
+    margin-top: 90px;
+    font-size: 30px;
+}
+
+.farmer-page-wlc img{
+    width: 20%;
+}
+
+.farmer-page-wlc h1{
+    color: #faff00;
+    font-style: italic;
+}
+
+.big-farmer{
+    text-align: center;
+    margin-top: 50px;
+}
+.big-farmer img{
+    width: 50%;
+}
+
+.farmer-btn{
+text-align: center;
+margin-top: 20px;
+}
+.farmer-btn button{
+    background: #FFD29A;
+    height: 40px;
+    width: 35%;
+    font-size: 20px;
+    border-radius: 7px;
+    border: 3px solid black;
+
+}
+
+.big-farmer-get-started{
+text-align: center;
+margin-top: 120px;
+height: 40px;
+
+}
+
+.big-farmer-get-started button{
+     height: 40px;
+    width: 45%;
+    font-size: 20px;
+    background-color: #faff00;
+    border-radius: 30px;
+    padding: 7px;
+}
+
+/* registration page */
+.eighth-page{
+    text-align: center;
+     margin-top: 70px;
+}
+
+.eighth-page img{
+    width: 60%;
+}
+
+.eighth-page-form{
+    text-align: center;
+    margin-top: 25%;
+}
+
+.eighth-page-form img{
+    height: 30px;
+    position: relative;
+    left: 100px;
+    top: 50px;
+}
+.eighth-page-form input{
+    width: 80%;
+    height: 60px;
+    font-size: 20px;
+    border-radius: 30px;
+    padding: 8px 0 0 20px;
+}
+
+.eighth-page-btn{
+    text-align: center;
+    margin-top: 80px;
+}
+.eighth-page-btn button{
+    background-color: #faff00;
+    height: 50px;
+    width: 40%;
+    font-size: 18px;
+    border-radius: 27px;
+}
+}

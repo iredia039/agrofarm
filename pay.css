@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media screen and (max-width: 430px) {
+    body{
+        background-color: rgb(101, 163, 101);
+    }
+
+    .pay{
+        background-color: white;
+        height: 20vh;
+        padding: 10%;
+        margin: 9% 6% 10%;
+        border-radius: 15px;
+
+    }
+
+    #ewo{
+        display: flex;
+    }
+    .pay img{
+        height: 19%;
+    }
+
+    .pay h2{
+        margin-top: 10%;
+        margin-left: 18%;
+    }
+
+    .nxt{
+         background-color: white;
+        height: 20vh;
+        padding: 10%;
+        margin: 9% 6% 10%;
+        border-radius: 15px;
+
+    }
+
+    .price{
+        display: flex;
+        justify-content:center;
+        gap: 23%;
+    }
+
+    .price h4{
+        /* margin-right: 50%; */
+    }
+
+    .visa{
+            background-color: white;
+        height: 20vh;
+        padding: 10%;
+        margin: 9% 6% 10%;
+        border-radius: 15px;
+
+    }
+
+    .visa h4{
+        margin-top: 16%;
+    }
+
+    .flex{
+        display: flex;
+        justify-content: center;
+        gap: 9%;
+    }
+
+    .flex img{
+        width: 15%;
+        height: 10%;
+    }
+
+    .input{
+        text-align: center;
+        display: flex;
+        justify-content: space-around;
+        background-color: white;
+        border-radius: 20px;
+          margin: 9% 6% 10%;
+          padding: 10px;
+          height: 4vh;
+    }
+
+    .input img{
+        height: 3vh;
+        width: 13%;
+        /* border: 1px solid blue; */
+    }
+
+    .ship{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .ship img{
+        width: 20%;
+        height: 20%;
+        /* margin-bottom: 12%; */
+    }
+
+    .free{
+        margin-top: 4%;
+    }
+
+    .btn{
+        text-align: center;
+    }
+
+    .btn button{
+        width: 40%;
+        background-color: yellow;
+        border-radius: 6px;
+    }
+}

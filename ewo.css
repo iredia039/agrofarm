@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media screen and (max-width: 430px){
+  /* saman */
+    .sixthback{
+        /* border: 1px solid blue; */
+        height: 350px;
+    }
+    .sixthback img{
+    height: 350px;
+    width: 442px;
+    border-bottom-left-radius: 30px;
+}
+
+.sixthback h1, h3{
+    color: white;
+    position: relative;
+    bottom: 130px;
+    left: 30px;
+    /* font-size: 30px; */
+}
+
+.sixthback h1{
+    font-size: 50px;
+}
+
+.sixthback h3{
+    color: gray;
+    font-size: 28px;
+}
+#farm{
+    width: 50px;
+    /* border: 1px solid blue; */
+     /* border: 1px solid blue; */
+    position: relative;
+    bottom: 140px;
+    left: 300px;
+    width: 30%;
+}
+
+.dash-farm{
+    /* border: 1px solid blue; */
+    position: relative;
+    bottom: 300px;
+    left: 200px;
+    width: 40%;
+}
+}
