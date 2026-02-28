@@ -205,7 +205,7 @@ a{
 }
 
 .form img{
-    position: relative;
+    position: absolute;
     right: 60px;
     top: 60%;
     height: 20px;
